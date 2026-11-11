@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Philippine City Search Map</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+          href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+</head>
+<body>
+
+    <h2>Philippine City Search Map</h2>
+
+    <form id="searchForm">
+        <input
+            type="text"
+            id="cityInput"
+            placeholder="Enter a Philippine city..."
+            required
+        >
+        <button type="submit">Search</button>
+    </form>
+
+    <p id="message">
+        Search for a Philippine city.
+    </p>
+
+    <div id="map"></div>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
